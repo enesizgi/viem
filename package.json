@@ -229,5 +229,8 @@
       "sharp",
       "simple-git-hooks"
     ]
-  }
+  },
+  "version": "0.0.1",
+  "name": "@whitevader/viem",
+  "description": "Custom viem which adds hyperEVM"
 }

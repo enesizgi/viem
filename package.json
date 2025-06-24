@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "type": "module",
   "scripts": {
     "bench": "vitest bench",
@@ -220,6 +220,14 @@
       "cross-spawn@>=7.0.0 <7.0.5": ">=7.0.5",
       "smol-toml@<=1.3.0": ">=1.3.1"
     },
-    "onlyBuiltDependencies": ["bun", "protobufjs", "simple-git-hooks"]
+    "onlyBuiltDependencies": [
+      "@biomejs/biome",
+      "bun",
+      "esbuild",
+      "msgpackr-extract",
+      "protobufjs",
+      "sharp",
+      "simple-git-hooks"
+    ]
   }
 }
